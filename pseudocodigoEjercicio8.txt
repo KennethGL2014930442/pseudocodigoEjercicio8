@@ -1,0 +1,10 @@
+Algoritmo Ejercicio8
+	opciones <- 'a'
+	Mientras opciones='a' Hacer
+		Escribir 'Multiplos de 5'
+		numero <- Aleatorio(1,50)
+		Escribir numero*5
+		Escribir ' a.- Continuar S.- Salir'
+		Leer opciones
+	FinMientras
+FinAlgoritmo
